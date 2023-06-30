@@ -1,0 +1,129 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 236, 231);
+}
+
+.header {
+    width: auto;
+    height: 50px;
+    background-color: #cf2e2ee7;
+    margin: -15px auto;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    line-height: 50px;
+}
+
+.masterbox {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.container {
+    border: 1px rgba(40, 10, 212, 0.397);
+    border-style: solid;
+    width: 960px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.imgcontainer {
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-top: -40px;
+    margin-left: 5px;
+    float: left;    
+}
+
+.imgcontainer.position {
+
+    margin-top: -20px;
+
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.foodcover {
+    width: 600px;
+    height: auto;
+    margin: 5px auto;
+}
+
+.recipename {
+    width: 200px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.shortdesc {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 730px;
+    height: 100px;
+    text-align: center;
+    margin-left: 215px;
+    box-sizing: border-box;
+}
+
+.info p {
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #cf2e2ee7;
+    text-align: center;
+    margin-left: 250px;
+    box-sizing: border-box;
+    font-size: 32px;
+    padding: 5px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
