@@ -41,9 +41,18 @@ p {
 .container {
     border: 1px rgba(40, 10, 212, 0.397);
     border-style: solid;
-    width: 960px;
     height: 300px;
-    margin: 10px auto;
+}
+
+.recipecontainer {
+    height: auto;
+}
+
+.container,
+.recipecontainer {
+    
+    width: 960px;
+    margin: 15px auto;
     padding: 2px;
     box-sizing: border-box;
 }
@@ -71,8 +80,9 @@ img {
 }
 
 .foodcover {
-    width: 600px;
-    height: auto;
+    display: block;
+    width: 500px;
+    height: 600px;
     margin: 5px auto;
 }
 
